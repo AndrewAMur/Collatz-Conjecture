@@ -9,7 +9,7 @@ def collatz_sequence(n):
             n //= 2
         else:
             n = 3 * n + 1
-    sequence.append(1)  # Append the last value, which is always 1
+    sequence.append(1)
     return sequence
 
 def main():
