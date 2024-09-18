@@ -24,6 +24,7 @@ def main():
     sequence = collatz_sequence(start_number)
     print("The Collatz sequence is:")
     print(sequence)
+    print(f"Number of steps is {len(sequence)}")
 
 if __name__ == "__main__":
     main()
